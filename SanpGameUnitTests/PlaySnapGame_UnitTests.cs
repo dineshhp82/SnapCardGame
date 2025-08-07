@@ -60,7 +60,7 @@ namespace SanpGameUnitTests
             };
 
             // Act
-            var result = PlaySnapGame.PlayGame(deck, MatchType.Suit);
+            var result = PlaySnapGame.PlayGame(deck, MatchType.Both);
 
             // Assert
             // The pile will have 2 cards when the snap occurs, and one player will get 3 points.
